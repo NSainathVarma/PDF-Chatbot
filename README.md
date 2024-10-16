@@ -88,10 +88,10 @@ You can create the API key for accessing Google Generative AI using the followin
 
 ```
 .
-├── app.py                 # Main Streamlit app file
+├── Chatbot.py             # Main Streamlit app file
 ├── .env                   # Environment file for storing the API key
-├── requirements.txt        # Python dependencies
-└── chat_history.txt        # Chat history file generated during session
+├── requirements.txt       # Python dependencies
+└── chat_history.txt       # Chat history file generated during session
 ```
 
 ## Technologies Used

@@ -17,6 +17,13 @@ This project is a **PDF Chatbot** that allows users to upload PDF documents and 
 - A **Google Cloud API key** for the Google Generative AI model.
 - **Streamlit** for building the web interface.
 
+##Creating the API Key
+You can create the API key for accessing Google Generative AI using the following steps:
+
+-Visit this link: https://aistudio.google.com/app/apikey.
+-Click on Create API Key, and it will generate an API key for you.
+-Store the API key for use in the project as described below.
+
 ## Setup Instructions
 
 1. Clone the repository:

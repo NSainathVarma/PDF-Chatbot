@@ -96,10 +96,3 @@ This project is a **PDF Chatbot** that allows users to upload PDF documents and 
 - **Streamlit**: Web framework for creating the user interface.
 - **Python**: Core programming language used for backend logic and integration.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
----
-
-Let me know if you need further adjustments or more details!

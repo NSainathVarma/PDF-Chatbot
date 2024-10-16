@@ -49,7 +49,7 @@ You can create the API key for accessing Google Generative AI using the followin
    In the `.env` file, include the following line:
 
    ```
-   GOOGLE_API_KEY = "YOUR_GOOGLE_API_KEY"
+   GOOGLE_API_TOKEN = "YOUR_GOOGLE_API_KEY"
    ```
 
    Replace `"YOUR_GOOGLE_API_KEY"` with your actual Google Cloud API key.

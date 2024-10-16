@@ -1,7 +1,3 @@
-Here’s an explanation for the README file based on your project details:
-
----
-
 # PDF Chatbot using Google Generative AI and Streamlit
 
 This project is a **PDF Chatbot** that allows users to upload PDF documents and interact with the contents using a chatbot interface. The chatbot is powered by Google Generative AI, specifically the **Gemini 1.5 Pro** model, which generates responses based on user queries about the uploaded document. The web interface is built using **Streamlit**, which provides an intuitive and interactive platform for users to engage with the chatbot.

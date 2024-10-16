@@ -63,7 +63,7 @@ You can create the API key for accessing Google Generative AI using the followin
 5. Run the Streamlit app:
 
    ```bash
-   streamlit run app.py
+   streamlit run {Filename}.py
    ```
 
 6. Access the app through your browser at `http://localhost:8501`.

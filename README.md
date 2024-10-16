@@ -54,7 +54,7 @@ You can create the API key for accessing Google Generative AI using the followin
 
    Replace `"YOUR_GOOGLE_API_KEY"` with your actual Google Cloud API key.
 
-4. To set the API key for your environment, use the following command (Dont add the quots for API Key):
+4. To set the API key for your environment, use the following command (Dont add the quotes for API Key):
 
    ```bash
    setx GOOGLE_API_KEY YOUR_GOOGLE_API_KEY

@@ -78,6 +78,32 @@ You can create the API key for accessing Google Generative AI using the followin
 
 4. **Save Conversations**: The chat history is automatically saved to a text file named `chat_history.txt` for reference.
 
+Here’s how you can format the section for the **README** file to handle Axios errors:
+
+---
+
+### Handling Axios Errors During PDF Uploads
+
+If you encounter an **Axios error** while uploading a PDF document, it might be due to CORS (Cross-Origin Resource Sharing) or XSRF protection issues in Streamlit. To fix this, follow the steps below to configure Streamlit's server settings.
+
+1. **Create a `config.toml` File**:
+   - Navigate to your Streamlit configuration folder (usually located at `~/.streamlit/` or the root directory of your project).
+   - If the `config.toml` file doesn't already exist, create it in this directory.
+
+2. **Update the `config.toml` File**:
+   Add the following lines to the `config.toml` file:
+   ```toml
+   [server]
+   enableXsrfProtection = false
+   enableCORS = false
+   ```
+
+3. **Restart the Application**:
+   After saving the changes, restart your Streamlit app to apply the new settings.
+
+By disabling XSRF protection and CORS, this configuration should resolve the Axios errors related to PDF uploads.
+
+
 ## Example
 
 - Upload a document like `sample.pdf`.
